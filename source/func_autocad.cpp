@@ -1841,7 +1841,7 @@ ACHAR* g_result = 0; // global result
 int g_length = 0;    // global result length
 int g_cronly = 0;    // global cronly
 
-#if defined(ARX23) || defined(ARX24) || defined(ARX25) || defined(ARX26) || defined(ZRX21) || defined(ZRX25)
+#if defined(ARX23) || defined(ARX24) || defined(ARX25) || defined(ARX26) || defined(ZRX21) || defined(ZRX25) || defined(BRX27)
 static bool MessageFilter(MSG* pMsg)
 #else
 static BOOL MessageFilter(MSG* pMsg)

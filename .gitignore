@@ -427,3 +427,13 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Local SDKs, intermediate BRX output and release staging
+/SDK V27/
+/source/x64/
+/artifacts/
+/caminho sdk v27.md
+
+# Release notes are source documentation, not generated releases.
+!/docs/releases/
+!/docs/releases/*.md
