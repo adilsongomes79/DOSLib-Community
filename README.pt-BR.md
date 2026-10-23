@@ -6,7 +6,8 @@ Robert McNeel & Associates**. O primeiro trabalho deste fork e o suporte ao
 **BricsCAD V27 para Windows x64**.
 
 [English](README.md) | [Compilacao](BRX27_IDCAD.md) |
-[Contribuir](CONTRIBUTING.md) | [Alteracoes](CHANGELOG.md)
+[Contribuir](CONTRIBUTING.md) | [Alteracoes](CHANGELOG.md) |
+[Agradecimentos](ACKNOWLEDGMENTS.md)
 
 ## Objetivo
 
@@ -32,7 +33,7 @@ da biblioteca continua **9.1.2**; o **27** em `DOSLib27x64.brx` indica o CAD de 
 ## Como usar
 
 1. Baixe o pacote Windows x64 para BricsCAD V27 em
-   [Releases](https://github.com/adilsongomes79/DOSLib-Community/releases).
+   [Release 9.1.2-brx27.1](https://github.com/adilsongomes79/DOSLib-Community/releases/tag/v9.1.2-brx27.1).
    Se ainda nao houver arquivos publicados, use o guia de compilacao.
 2. Extraia os arquivos e, no BricsCAD V27 com suporte BRX, use `APPLOAD`
    para carregar `DOSLib27x64.brx`.

@@ -18,7 +18,7 @@ $packageName = "DOSLib-Community-$Version-Windows-x64"
 $staging = Join-Path $artifacts ('staging\' + [guid]::NewGuid().ToString('N'))
 New-Item -ItemType Directory -Path $staging -Force | Out-Null
 Copy-Item -LiteralPath $binary -Destination (Join-Path $staging 'DOSLib27x64.brx')
-foreach ($file in @('LICENSE', 'README.md', 'README.pt-BR.md', 'BRX27_IDCAD.md', 'CHANGELOG.md', 'CONTRIBUTING.md')) {
+foreach ($file in @('LICENSE', 'ACKNOWLEDGMENTS.md', 'README.md', 'README.pt-BR.md', 'BRX27_IDCAD.md', 'CHANGELOG.md', 'CONTRIBUTING.md')) {
     Copy-Item -LiteralPath (Join-Path $projectRoot $file) -Destination (Join-Path $staging $file)
 }
 # Keep relative documentation links valid inside the archive.
